@@ -3005,12 +3005,16 @@ input, select, textarea {
 
 		.spotlights > section > .image {
 			background-position: center center;
-			background-size: 80%;
+			background-size: cover ;
 			border-radius: 0;
 			display: block;
 			position: relative;
 			width: 25em;
 		}
+         .spotlights > section > .image.powerbi {
+          background-size: 75%;
+          background-repeat: no-repeat;
+       }
 
 			.spotlights > section > .image img {
 				border-radius: 0;
